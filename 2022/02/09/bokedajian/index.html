@@ -483,33 +483,33 @@
 <h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><h3 id="一、nodejs搭建"><a href="#一、nodejs搭建" class="headerlink" title="一、nodejs搭建"></a>一、nodejs搭建</h3><ol>
 <li><p>下载</p>
 <p> 下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/">nodejs下载</a></p>
-<p> <img src="/themes/hexo-theme-matery/source/medias/images/%E4%B8%8B%E8%BD%BD%E7%95%8C%E9%9D%A2.jpg"></p>
+<p> <img src="/themes/hexo-theme-matery/source/medias/images/xzjm.jpg"></p>
 </li>
 <li><p>安装</p>
 <p><strong>安装程序</strong></p>
 <p> 下载完成后，双击安装包，开始安装，使用默认配置一直点next即可，自定义修改安装路径。</p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%852.png"><br> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%853.png"></p>
+<p> <img src="/bokedajian/a.png"><br> <img src="/bokedajian/a2.png"></p>
 <p> 安装路径默认在C:\Program Files下面，也能够自定义修改，而后点击next</p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%854.png"></p>
+<p> <img src="/bokedajian/a3.png"></p>
 <p> 接下来一直点下一步即可</p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%855.png"><br> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%856.png"><br> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%857.png"><br> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%858.png"></p>
+<p> <img src="/bokedajian/a4.png"><br> <img src="/bokedajian/a5.png"><br> <img src="/bokedajian/a6.png"><br> <img src="/bokedajian/a7.png"></p>
 <p> 安装完成之后 win+r并输入cmd打开命令行模式</p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%857.jpg"></p>
+<p> <img src="/bokedajian/a8.jpg"></p>
 <p> 输入<code>node -v</code> 查看node是否安装成功<br> 输入<code>npm -v</code>查看npm是否安装成功</p>
 <p> 出现版本号即为安装成功 查看后不要关闭 后面步骤会继续使用命令行模式</p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E5%AE%89%E8%A3%858.jpg"></p>
+<p> <img src="/bokedajian/a9.jpg"></p>
 </li>
 <li><p>修改安装和缓存路径</p>
 <ol>
 <li>查看node安装和缓存路径</li>
 </ol>
 <p>命令行模式下 输入 <code>npm config get prefix</code> 和 <code>npm config get cache</code>查看node当前使用路径</p>
-<p><img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%832.jpg"></p>
-<ol start="2">
+<p><img src="/bokedajian/pzhj2.jpg"></p>
+<ol>
 <li>在node安装目录新建两个文件夹 名为<code>node_cache</code> 、<code>node_global</code></li>
 </ol>
-<p><img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%831.jpg"></p>
-<ol start="3">
+<p><img src="/bokedajian/pzhj1.jpg"></p>
+<ol>
 <li><p><strong>将node_modules文件夹复制一份到node_global文件夹内</strong></p>
 </li>
 <li><p>使用命令修改安装路径</p>
@@ -517,62 +517,62 @@
 </ol>
 <p> <strong>注意 ：命令和文件路径之间要有一个空格隔开</strong></p>
 <p>   命令行模式下输入<code>npmconfig set prefix &quot;node_global文件的路径&quot;</code></p>
-<p>   <img src="/../../themes/hexo-theme-matery/source/medias/images/%E4%BF%AE%E6%94%B9%E8%B7%AF%E5%BE%841.jpg"></p>
+<p>   <img src="/bokedajian/xglj1.jpg"></p>
 <p>   文件路径查看方式：打开node_global文件夹、点击上方路径复制 </p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE3.jpg"></p>
-<ol start="5">
+<p> <img src="/bokedajian/hjpz3.jpg"></p>
+<ol>
 <li>使用命令修改缓存路径</li>
 </ol>
 <p> 命令行模式下输入<code>npmconfig set cache &quot;node_cache文件的路径&quot;</code></p>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E4%BF%AE%E6%94%B9%E8%B7%AF%E5%BE%842.jpg"></p>
+<p> <img src="/bokedajian/xglj2.jpg"></p>
 </li>
 <li><p>配置环境</p>
 <ol>
 <li>右击此电脑，选择属性进入系统界面</li>
 </ol>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%833.jpg"></p>
-<ol start="2">
+<p> <img src="/bokedajian/pzhj3.jpg"></p>
+<ol>
 <li>点击高级系统设置，进入属性界面</li>
 </ol>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%834.jpg"><br> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%835.jpg"></p>
-<ol start="3">
-<li>点击环境变量进去配置界面<ol>
+<p> <img src="/bokedajian/pzhj4.jpg"><br> <img src="/bokedajian/pzhj5.jpg"></p>
+<ol>
+<li>点击环境变量进入配置界面<ol>
 <li><p>下方系统变量点击新建</p>
 <p>变量名为 <code>NODE_PATH</code> 变量值为 <strong>node_global文件夹中node_modules文件路径</strong></p>
 </li>
 </ol>
 </li>
 </ol>
-<p>   <img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%837.jpg"></p>
-<ol start="2">
+<p>   <img src="/bokedajian/pzhj7.jpg"></p>
+<ol>
 <li>点击上方用户变量中的path变量</li>
 </ol>
 <p>   将<code>nodejs默认配置</code>修改为<code>node_global的文件路径</code>，并添加<code>%NODE_PATH%</code>变量</p>
 <p>   修改前</p>
-<p>   <img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%838.jpg"></p>
+<p>   <img src="/bokedajian/pzhj8.jpg"></p>
 <p>   修改后</p>
-<p>   <img src="/../../themes/hexo-theme-matery/source/medias/images/%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%839.jpg"> 
+<p>   <img src="/bokedajian/pzhj9.jpg"> 
  </p>
 </li>
 <li><p>测试</p>
 <p> 命令行模式下 使用命令 <code>npm install vue -g</code></p>
 <p><strong>注意：一定要加上-g，这是全局安装的意思，如果不加是局部安装，会安装在cmd控制台当前运行的目录下</strong> </p>
 <p>如图所示即为成功</p>
-<p><img src="/../../themes/hexo-theme-matery/source/medias/images/%E6%B5%8B%E8%AF%951.jpg"></p>
+<p><img src="/bokedajian/cs1.jpg"></p>
 </li>
 <li><p>报错及解决方案</p>
 <p>   如图所示的错误</p>
-<p><img src="/../../themes/hexo-theme-matery/source/medias/images/%E6%B5%8B%E8%AF%952.jpg"></p>
+<p><img src="/bokedajian/cs2.jpg"></p>
 <p>原因：因为node安装目录文件夹的权限不够所导致</p>
 <p>   解决方法：</p>
 <ol>
 <li>找到node安装目录、右击选择属性</li>
 </ol>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E6%B5%8B%E8%AF%953.jpg"></p>
+<p> <img src="/bokedajian/cs3.jpg"></p>
 <ol>
 <li>选择安全选项点击编辑 允许权限中的完全控制</li>
 </ol>
-<p> <img src="/../../themes/hexo-theme-matery/source/medias/images/%E6%B5%8B%E8%AF%954.jpg"></p>
+<p> <img src="/bokedajian/cs4.jpg"></p>
 </li>
 <li><p>安装hexo</p>
 <p>测试无报错后可以开始安装hexo</p>
@@ -580,24 +580,24 @@
 <p>此步的目的为 切换为淘宝镜像 安装hexo速度会快</p>
 <p>命令行模式下 使用<code>npm install hexo-cli -g</code>安装hexo</p>
 <p>如图所示即为安装成功</p>
-<p><img src="/../../themes/hexo-theme-matery/source/medias/images/hexo.jpg"></p>
+<p><img src="/bokedajian/hexo.jpg"></p>
 </li>
 </ol>
-<p>二、<strong>Git下载</strong></p>
+<p><strong>二、Git下载</strong></p>
 <p>git只需要下载和安装即可，不需要过多配置，因此在这里不过多描述，附上下载地址和安装教程，请大家安装下载后进行下面步骤</p>
 <p>git下载地址：<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">git官网</a></p>
 <p>git安装教程：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html">git安装</a></p>
 <p><strong>注意：若安装git为最新版，其安装步骤与安装教程中有偏差，总体不会有问题</strong></p>
-<p>三、<strong>GitHub账户添加SSH密钥</strong></p>
+<p><strong>三、GitHub账户添加SSH密钥</strong></p>
 <p>注册和创建仓库就不在此多说，大家这步操作应该都会</p>
 <p>不会的请看：</p>
 <p><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1487508">GitHub注册过程</a></p>
 <p><a target="_blank" rel="noopener" href="https://docs.github.com/cn/get-started/quickstart/create-a-repo">GitHub创建仓库</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/aurora0_/article/details/106732773?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164439356716780264028748%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164439356716780264028748&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-106732773.first_rank_v2_pc_rank_v29&utm_term=github%E6%B7%BB%E5%8A%A0%E5%AF%86%E9%92%A5&spm=1018.2226.3001.4187">添加SSH密钥</a></p>
-<p>四、<strong>利用hexo搭建个人博客</strong></p>
+<p><strong>四、利用hexo搭建个人博客</strong></p>
 <p>在这里推荐一种十分方便的方法，照着步骤来即可成功搭建</p>
 <p><a target="_blank" rel="noopener" href="https://hexoscript.gitbook.io/hexo-script/v/1.3-1/shi-yong-bu-zhou/zhun-bei-gong-ju">利用脚本搭建</a></p>
-<p>五、<strong>主题推荐</strong></p>
+<p><strong>五、主题推荐</strong></p>
 <p>为大家推荐几款热度高的主题，大家根据自己的喜好配置</p>
 <p>本博主使用的是matery主题</p>
 <p><a target="_blank" rel="noopener" href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md">matery主题地址</a></p>
@@ -652,7 +652,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://baipatrick.github.io/2022/02/09/da-jian-bo-ke/">http://baipatrick.github.io/2022/02/09/da-jian-bo-ke/</a>
+                    <a href="http://baipatrick.github.io/2022/02/09/bokedajian/">http://baipatrick.github.io/2022/02/09/bokedajian/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -870,7 +870,7 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2022/02/09/da-jian-bo-ke/">
+                <a href="/2022/02/09/bokedajian/">
                     <div class="card-image">
                         
                         
@@ -921,35 +921,52 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2022/02/08/first/">
+                <a href="/2022/02/09/bokedajian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="First 测试">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="如何使用hexo搭建个人博客">
                         
-                        <span class="card-title">First 测试</span>
+                        <span class="card-title">如何使用hexo搭建个人博客</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            第一次使用hexo搭建个人博客，遇到了一些问题，将问题简单规整了一下，并将整个过程写下来供大家阅读。如有描述不当请指正
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-08
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-02-09
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Patrick Bai
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Patrick/" class="post-category">
+                                    Patrick
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                    <a href="/tags/GitHub/">
+                        <span class="chip bg-color">GitHub</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1096,7 +1113,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.2k</span>&nbsp;字
+                class="white-color">1.1k</span>&nbsp;字
             
             
             
