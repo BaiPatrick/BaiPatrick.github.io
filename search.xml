@@ -4,6 +4,8 @@
     <title>one</title>
     <url>/undefined/22236.html</url>
     <content><![CDATA[<h2 id="一、变量"><a href="#一、变量" class="headerlink" title="一、变量"></a>一、变量</h2><p>1.变量提供有名字的可操作的存储空间<br>2.每个变量都有自己的类型<br>3.类型决定了变量的大小和内存布局以及可应用于该变量的操作集<br>4.endl具有刷新流缓冲区的作用</p>
+<span id="more"></span>
+
 <h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><p>1.分三类<br>    1. 整数数据类型<br>        1. int<br>        2. short<br>        3. long<br>        4. char<br>        5. bool<br>    2. 浮点数据类型<br>        1. float<br>        2. double<br>    3. void数据类型<br>        1. 描述一组空值<br>        2. 不能指定void类型的变量<br>        3. 主要用于描述函数的返回值类型，该类函数不返回任何内容</p>
 <h2 id="二、语句"><a href="#二、语句" class="headerlink" title="二、语句"></a>二、语句</h2><ol>
 <li>表达式<ol>
@@ -37,6 +39,13 @@
 <li>但是</li>
 </ol>
 ]]></content>
+      <categories>
+        <category>分类</category>
+      </categories>
+      <tags>
+        <tag>各种标签</tag>
+        <tag>标签</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
